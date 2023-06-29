@@ -1,0 +1,29 @@
+:root {
+  --background-1: #090909;
+  --background-2: #1b1b1b;
+  --font-color-active: #f0f0f0;
+  --font-color-inactive: #b5b5b5;
+  --accent-color: #00cc00;
+}
+
+.App,
+body,
+html,
+.root {
+  background: var(--background-1);
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+* {
+  text-align: center;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  background: none;
+  background-color: none;
+  font-family: 'Nunito';
+  overflow: hidden;
+}
