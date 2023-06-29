@@ -1,9 +1,10 @@
 :root {
-  --background-1: #090909;
-  --background-2: #1b1b1b;
-  --font-color-active: #f0f0f0;
-  --font-color-inactive: #b5b5b5;
+  --background-1: #151515;
+  --background-2: #202020;
+  --font-color-active: #b7b7b7;
+  --font-color-inactive: #7e7e7e;
   --accent-color: #00cc00;
+  --shaddow-config: 0px 0px 8px 0px rgba(0, 0, 0, 1);
 }
 
 .App,
@@ -26,4 +27,22 @@ html,
   background-color: none;
   font-family: 'Nunito';
   overflow: hidden;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.relative-viewport {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 70%;
+  width: 100%;
+  background: transparent;
+  transform: translate(-50%, -50%);
 }
